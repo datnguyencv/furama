@@ -1,0 +1,155 @@
+{
+  "customers": [
+    {
+      "name": "Tiến Đạt",
+      "gender": "Nam",
+      "age": 18,
+      "phoneNumber": "0702712217",
+      "address": "99 Bạch ĐằNg",
+      "customerTypeId": 3,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Minh Sơn",
+      "gender": "Nam",
+      "age": 20,
+      "phoneNumber": "0987987987",
+      "address": "99 Bạch Đằng",
+      "customerTypeId": 2
+    },
+    {
+      "name": "Văn Trí",
+      "gender": "Nam",
+      "age": 18,
+      "phoneNumber": "077788888",
+      "address": "01 Trần Hưng Đạo",
+      "customerTypeId": 2,
+      "id": 3
+    },
+    {
+      "name": "Hữu Huy",
+      "gender": "Nam",
+      "age": 25,
+      "phoneNumber": "0989999999",
+      "address": "02 Trần Hưng Đạo",
+      "customerTypeId": 3,
+      "id": 4
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Gold"
+    },
+    {
+      "id": 3,
+      "name": "Silver"
+    }
+  ],
+  "room": [
+    {
+      "name": "Bơi lội",
+      "area": 100,
+      "cost": 5000,
+      "maxPeople": 20,
+      "standardRoom": "Twin bedroom",
+      "description": "Tốt",
+      "poolArea": 50,
+      "numberOfFloors": 3,
+      "roomFree": "Đồ bơi, Kính bơi",
+      "rentType": 1,
+      "roomType": 3,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Phòng đơn",
+      "area": 50,
+      "cost": 3000,
+      "maxPeople": 1,
+      "roomType": 1,
+      "rentType": 1,
+      "standardRoom": "Single room",
+      "description": "Phòng đơn tiện nghi",
+      "poolArea": 0,
+      "numberOfFloors": 1,
+      "roomFree": "Giường, Tủ quần áo",
+      "status": true
+    },
+    {
+      "name": "Phòng view biển",
+      "area": 500,
+      "cost": 5000,
+      "maxPeople": 12,
+      "standardRoom": "Twin bedroom",
+      "description": "Phòng hướng biển, dịch vụ cao cấp",
+      "poolArea": 100,
+      "numberOfFloors": 2,
+      "roomFree": "Đồ ăn sáng",
+      "rentType": 2,
+      "roomType": 2,
+      "id": 10
+    }
+  ],
+  "roomType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Gold"
+    },
+    {
+      "id": 3,
+      "name": "Silver"
+    }
+  ],
+  "rentType": [
+    {
+      "id": 1,
+      "name": "VND"
+    },
+    {
+      "id": 2,
+      "name": "USD"
+    }
+  ],
+  "contract": [
+    {
+      "id": 1,
+      "code": "CO-0001",
+      "roomId": 1,
+      "customerId": 1,
+      "dateStart": "2023-06-30",
+      "dateEnd": "2023-06-30",
+      "deposit": 5000,
+      "totalMoney": 30000
+    },
+    {
+      "id": 2,
+      "code": "CO-0002",
+      "roomId": 1,
+      "customerId": 2,
+      "dateStart": "2023-06-30",
+      "dateEnd": "2023-06-30",
+      "deposit": 5000,
+      "totalMoney": 30000
+    },
+    {
+      "code": "0001",
+      "customerId": 1,
+      "roomId": 2,
+      "dateStart": "2023-06-30",
+      "dateEnd": "2023-06-30",
+      "deposit": 500,
+      "totalMoney": 30000,
+      "id": 3
+    }
+  ]
+}
